@@ -1,0 +1,40 @@
+.form{
+    margin: 15px 0px 0px 30%;
+}
+
+.form .insert{
+    padding: .5rem;
+    border: 1px solid #333;
+}
+
+.form .button{
+    padding: .8rem;
+    background-color: cornflowerblue;
+    color:cornsilk;
+    outline: none;
+    border: none;
+}
+
+.form .button:hover{
+    background-color:teal;
+}
+
+.file-list{
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-size: 2rem;
+    padding: 2rem 5rem;
+}
+.file-list p a{
+    color:teal;
+    text-decoration: none;
+}
+
+.file-list p a .far{
+    color:rgb(111, 2, 104);
+}
+.file-list p a .far:hover{
+    color:red;
+}
